@@ -29,7 +29,7 @@ const Hero = ({theme}) => {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.5, delay: 1}}
         viewport={{once: true}}
-      className='text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>Fiboniq Technologies an all-in-one CRM platform built specifically for forex brokers.</motion.p>
+      className='text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>Fiboniq Technologies delivers 2 an all-in-one CRM platform built specifically for forex brokers.</motion.p>
 
        <motion.a
         initial={{opacity: 0, y: 30 }}
