@@ -22,14 +22,14 @@ const Hero = ({theme}) => {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.6, delay: 0.8}}
         viewport={{once: true}}
-      className='text-xl sm:text-5xl md:text-6xl xl:text-[48px] font-medium xl:leading-[72px] max-w-5xl'>Power Your Brokerage with <span className='bg-gradient-to-b from-[#f16c22] to-[#f16c22] bg-clip-text text-transparent'>Fiboniq’s</span> All-in-one Forex CRM Suite.</motion.h1>
+      className='text-xl sm:text-5xl md:text-6xl xl:text-[48px] font-medium xl:leading-[72px] max-w-5xl'>Power Your Brokerage with <span className='bg-gradient-to-b from-[#f16c22] to-[#f16c22] bg-clip-text text-transparent'>Fiboniq’s</span> All-in-One Forex CRM Suite.</motion.h1>
 
       <motion.p 
         initial={{opacity: 0, y: 30 }}
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.5, delay: 1}}
         viewport={{once: true}}
-      className='text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>Fiboniq Technologies delivers to an all-in-one CRM platform built specifically for forex brokers.</motion.p>
+      className='text-sm sm:text-lg font-medium text-gray-500 dark:text-white/75 max-w-4/5 sm:max-w-lg pb-3'>Fiboniq Technologies delivers an all-in-one CRM platform built specifically for forex brokers.</motion.p>
 
        <motion.a
         initial={{opacity: 0, y: 30 }}
