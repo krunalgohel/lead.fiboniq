@@ -36,7 +36,7 @@ const Hero = ({theme}) => {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.5, delay: 1}}
         viewport={{once: true}}
-      className='text-sm border border-primary text-primary hover:text-white hover:dark:text-primary dark:border-primary dark:text-primary px-6 py-2 rounded-full cursor-pointer hover:scale-105 hover:bg-primary hover:dark:bg-white transition-all text-center mx-auto' href='#contact-us'>Get Started</motion.a>
+      className='text-sm border border-primary text-primary hover:text-white hover:dark:text-primary dark:border-primary dark:text-primary px-6 py-2 rounded-full cursor-pointer hover:scale-105 hover:bg-primary hover:dark:bg-white transition-all text-center mx-auto' href='https://calendly.com/fiboniqtech-support' target='_blank'>Get Started</motion.a>
 
       <motion.div 
         initial={{opacity: 0, scale: 0.9 }}

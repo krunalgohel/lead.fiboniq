@@ -41,7 +41,7 @@ const Navbar = ({theme, setTheme}) => {
           <path clipRule="evenodd" d="m5.29303 5.29301c.18753-.18748.44184-.29279.707-.29279s.51947.10531.707.29279l5.29297 5.29299 5.293-5.29299c.0923-.09552.2026-.1717.3246-.22411s.2533-.07999.386-.08115c.1328-.00115.2645.02415.3874.07443s.2345.12454.3284.21843.1682.20554.2185.32844c.0502.1229.0755.25458.0744.38736-.0012.13278-.0288.264-.0812.386s-.1286.23235-.2241.32459l-5.293 5.293 5.293 5.293c.1822.1886.283.4412.2807.7034s-.1074.513-.2929.6984c-.1854.1854-.4362.2906-.6984.2929s-.5148-.0985-.7034-.2807l-5.293-5.293-5.29297 5.293c-.1886.1822-.4412.283-.7034.2807s-.51301-.1075-.69842-.2929-.29058-.4362-.29285-.6984c-.00228-.2622.09851-.5148.28067-.7034l5.29297-5.293-5.29297-5.293c-.18747-.18752-.29279-.44183-.29279-.707 0-.26516.10532-.51947.29279-.70699z" fill="" fillRule="evenodd"></path>
         </svg>
 
-        <a href="#contact-us" className='text-sm sm:hidden bg-primary text-white dark:bg-white dark:text-primary px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all text-center min-w-9/12 me-auto'>
+        <a href="https://calendly.com/fiboniqtech-support" target='_blank' className='text-sm sm:hidden bg-primary text-white dark:bg-white dark:text-primary px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all text-center min-w-9/12 me-auto'>
             Connect
         </a>
 
@@ -53,7 +53,7 @@ const Navbar = ({theme, setTheme}) => {
 
         <img src={theme === 'dark' ? assets.menu_icon_dark : assets.menu_icon} alt="" className='w-8 sm:hidden' onClick={() => setSidebarOpen(true)}/>
 
-        <a href="#contact-us" className='text-sm hidden md:flex items-center gap-2 bg-gradient-to-tr from-[#f16c22] to-[#f16c22] text-white px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all '>
+        <a href="https://calendly.com/fiboniqtech-support" target='_blank' className='text-sm hidden md:flex items-center gap-2 bg-gradient-to-tr from-[#f16c22] to-[#f16c22] text-white px-6 py-2 rounded-full cursor-pointer hover:scale-105 transition-all '>
             Connect <img src={assets.arrow_icon} width={14} alt="Connect for Forex CRM Button" />
         </a>
       </div>
